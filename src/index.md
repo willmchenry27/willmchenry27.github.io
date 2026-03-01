@@ -15,5 +15,4 @@ Before tech, I spent years in **foreign policy and security research**, studying
 <div class="social-links">
   <a href="https://linkedin.com/in/william-mchenry" class="social-link">LinkedIn</a>
   <a href="https://github.com/willmchenry27" class="social-link">GitHub</a>
-  <a href="mailto:williamamchenry@gmail.com" class="social-link">Email</a>
 </div>
