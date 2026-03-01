@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} — Will McHenry</title>
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="{{ title }} — Will McHenry">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://willmchenry27.github.io{{ page.url }}">
+    <meta property="og:description" content="{% if description %}{{ description }}{% else %}UX Researcher at Amazon{% endif %}">
+    <meta property="og:site_name" content="Will McHenry">
+    <meta name="description" content="{% if description %}{{ description }}{% else %}UX Researcher at Amazon{% endif %}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/css/pico.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ '/img/favicon.svg' | url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ '/img/favicon-180.png' | url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
+</head>
+<body>
+    <nav class="container">
+        <ul role="list">
+            <li>
+                <a href="/" class="nav-brand {% if page.url == '/' %}active{% endif %}">
+                    <span class="nav-text">Will McHenry</span>
+                </a>
+            </li>
+        </ul>
+        <ul role="list" class="nav-links">
+            <li>
+                <a href="/" class="nav-item {% if page.url == '/' %}active{% endif %}">
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" class="nav-item {% if '/about' in page.url %}active{% endif %}">
+                    <span class="nav-text">About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/experience/" class="nav-item {% if '/experience' in page.url %}active{% endif %}">
+                    <span class="nav-text">Experience</span>
+                </a>
+            </li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"/>
+                <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+            </svg>
+        </button>
+    </nav>
+
+    <main class="container">
+        {{ content | safe }}
+    </main>
+
+    <footer class="container">
+        <p>&copy; {{ page.date.getFullYear() }} Will McHenry</p>
+    </footer>
+
+    <script src="{{ '/js/theme.js' | url }}"></script>
+</body>
+</html>

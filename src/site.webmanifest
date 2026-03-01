@@ -1,0 +1,14 @@
+{
+  "name": "Will McHenry",
+  "short_name": "WM",
+  "icons": [
+    {
+      "src": "/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#1155cc",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

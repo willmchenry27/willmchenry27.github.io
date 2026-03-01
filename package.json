@@ -1,0 +1,14 @@
+{
+  "name": "willmchenry-site",
+  "version": "1.0.0",
+  "description": "Personal website for Will McHenry",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "markdown-it": "^14.0.0",
+    "markdown-it-attrs": "^4.1.6"
+  }
+}
