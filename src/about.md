@@ -6,7 +6,7 @@ description: About Will McHenry — UX Researcher, policy analyst, and mixed-met
 
 # About Me
 
-I'm a mixed-methods researcher who bridges the worlds of **user experience research** and **international policy analysis**. My work at Amazon focuses on conducting consumer research studies that influence product and market decisions across Amazon Business, Prime, and Fire TV / Digital Advertising.
+I'm a mixed-methods researcher who bridges the worlds of **user experience research** and **international policy analysis**. My work at Amazon focuses on conducting consumer research studies that influence product decisions for Amazon Devices with a focus on Fire TV and Alexa.
 
 ## Research Approach
 
