@@ -8,7 +8,7 @@ description: Will McHenry's professional experience in UX research and policy an
 
 <div class="experience-entry">
 
-### Senior Marketplace UX Researcher
+### Senior Monetization Researcher
 <p class="experience-meta"><span class="experience-org">Amazon</span> · Full-time · Current Role</p>
 
 Lead large-scale consumer research studies influencing key product and market decisions for Amazon Business, Prime, and Fire TV / Digital Advertising. Deliver customer insight and consumer insight that shapes product strategy.
